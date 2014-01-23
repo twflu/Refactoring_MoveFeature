@@ -1,11 +1,12 @@
 package refactor;
 
 public class Book {
+    private String _authorName;
+    private String _authorMail;
+
     private String _title;
     private String _isbn;
     private String _price;
-    private String _authorName;
-    private String _authorMail;
 
     public Book(String title, String isbn, String price, String authorName, String authoMail) {
         _title = title;
@@ -32,9 +33,9 @@ public class Book {
     }
 
     public void setAuthorName(String name) {
-        this._authorName = name;
+        _authorName = name;
     }
     public void setAuthorMail(String mail) {
-        this._authorMail = mail;
+        _authorMail = mail;
     }
 }
