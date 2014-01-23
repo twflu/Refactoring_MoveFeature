@@ -1,3 +1,5 @@
+package refactor;
+
 public class Book {
     private String _title;
     private String _isbn;
@@ -12,6 +14,7 @@ public class Book {
         _authorName = authorName;
         _authorMail = authoMail;
     }
+
     public String getTitle() {
         return _title;
     }
