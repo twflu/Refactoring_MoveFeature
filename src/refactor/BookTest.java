@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by twer on 1/23/14.
  */
-public class BookTest extends TestCase {
+public class BookTest{
 
     @Test
     public void should_get_the_correct_book_info() {
