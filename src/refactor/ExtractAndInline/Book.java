@@ -1,4 +1,4 @@
-package refactor;
+package refactor.ExtractAndInline;
 
 public class Book {
     private String _authorName;

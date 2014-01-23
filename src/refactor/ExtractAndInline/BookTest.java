@@ -1,7 +1,6 @@
-package refactor;
+package refactor.ExtractAndInline;
 
 import junit.framework.Assert;
-import junit.framework.TestCase;
 import org.junit.Test;
 
 /**
